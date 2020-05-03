@@ -1,0 +1,179 @@
+/* yellow color: #c4a93e */
+body {
+    background-color: #f3f3f3;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#body{
+    background-color: white;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top:152px;
+    z-index: -1;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c4a93e;
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    border-bottom: 10px solid black;
+}
+#headertext{
+    background-color: #c4a93e;
+    color: black;
+    float: left;
+    height: 150px;
+    width: 400px;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: right;
+    padding-top: 0;
+    padding-right: 10px;    
+    font-family: 'Roboto Slab', serif;
+    border-right: 10px solid black; 
+}
+#headertext h1{
+    margin-top: 20px;
+}
+#navstuff{
+    padding: 0;
+}
+#slogan {
+    background-color: white;
+    color: #c4a93e;
+    font-size: 24px;
+    height: 66px;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 40px;
+}
+#slogan img{
+    vertical-align: text-top;
+    height: 60px;
+    margin: 0 5px;
+}
+#slogan h2{
+    margin: 0;
+}
+#nav{
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a.navbutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    border-right: 2px solid black;
+    width: 130px;
+    height: 35px;
+    float: left;
+    color: black;
+    text-align: center;
+}
+.navbutton:hover{
+    color: #c4a93e;
+    background-color: white;
+}
+
+
+#body h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    background-color: white;
+    padding-left: 20px;
+}
+#body h2{
+    margin-top: 0;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 20px;
+}
+#body hr{
+    margin-top: 0;
+    height: 5px;
+    background-color: black;
+}
+#body h1 img{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.results{
+    background-color: white;
+    padding: 20px 40px 0 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.percentcaption{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+}
+.percent{
+    float: left;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #c4a93e;
+    font-family: 'Roboto Slab', serif;
+}
+.amtraised{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.amtraised a{
+    position: relative;
+    top: 3px;
+}
+.results h3{
+    text-align: center;
+    font-size: 100px;
+    color: #c4a93e;
+    margin: 0 0 0 0;
+    font-family: 'Roboto Slab', serif;
+}
+.about{
+    line-height: 1.8em;
+    font-size: 25px;
+    text-align: center;
+}
+#ted{
+    padding-bottom: 100px;
+    margin-left: 10%;
+}
+#ted img{
+    height: 250px;
+    float: left;
+}
+#quotesrc{
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+#quotesrc #quoteatt{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.video{
+    width: 800px;
+    max-width: 80%;
+    height: 450px;
+    position: relative;
+    left: 10%;
+}
