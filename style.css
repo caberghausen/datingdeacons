@@ -229,3 +229,19 @@ a.navbutton {
     position: relative;
     top: 200px;
 }
+
+@media (max-width: 955px){
+    #slogan{
+        display: none;
+    }
+    #navstuff{
+        position: absolute;
+        width: auto;
+        height: 30px;
+        top: 160px;
+        left: 24px;
+    }
+    #header{
+        width: 420px;
+    }
+}
