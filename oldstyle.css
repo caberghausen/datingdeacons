@@ -1,6 +1,6 @@
 /* yellow color: #c4a93e */
 body {
-    background-color: #f3f3f3 !important;
+    background-color: #f3f3f3;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 #body{
@@ -10,53 +10,95 @@ body {
     max-width: 100%;
     height: auto;
     position: relative;
-    top: 80px;
-    padding-top: 60px;
+    top:152px;
+    padding-top: 20px;
     padding-bottom: 50px;
     margin-bottom: 100px;
-    border-radius: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
-#header {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Roboto Slab', serif;
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c4a93e;
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    border-bottom: 10px solid black;
+    z-index: 2;
 }
-.active{
-    background-color: #ffffff;
-    border-radius: 4px;
-}
-.nav-item{
+#headertext{
+    background-color: #c4a93e;
     color: black;
+    float: left;
+    height: 150px;
+    width: 400px;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: right;
+    padding-top: 0;
+    padding-right: 10px;    
+    font-family: 'Roboto Slab', serif;
+    border-right: 10px solid black; 
 }
-
-.navbar-collapse{
-    text-align: center;
+#headertext h1{
+    margin-top: 20px;
 }
-.link {
+#navstuff{
+    padding: 0;
+}
+#slogan {
+    background-color: white;
+    color: #c4a93e;
+    font-size: 24px;
+    height: 66px;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 40px;
+}
+#slogan img{
+    vertical-align: text-top;
+    height: 60px;
+    margin: 0 5px;
+}
+#slogan h2{
+    margin: 0;
+}
+#nav{
+    font-size: 20px;
+}
+a {
     text-decoration: none;
     color: black;
 }
 #body a:hover{
     opacity: .5;
 }
+a.navbutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 
-#carouselExampleIndicators{
-    width: 700px;
-    border-radius: 10px;
-    max-width: 100%;
-    height: 70%;
-    margin: 0 auto;
-    overflow: hidden;
+    text-decoration: none;
+    color: initial;
+    border-right: 2px solid black;
+    width: 130px;
+    height: 35px;
+    float: left;
+    color: black;
+    text-align: center;
 }
-#caption {
-    font-size: 10px;
+.navbutton:hover{
+    color: #c4a93e;
+    background-color: white;
 }
+
+
 #body h1{
     font-family: 'Roboto Slab', serif;
     font-size: 40px;
     margin-bottom: 0;
-    padding: 0 20px;
+    background-color: white;
+    padding-left: 20px;
 }
 #body h2{
     margin-top: 0;
@@ -75,40 +117,6 @@ body {
     top: 30px;
     left: 10px;
 }
-#seperator{
-    padding-top: 40px;
-}
-#buttonwrap{
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-}
-.homecta{
-    height: 60px;
-    padding: 0 32px;
-    border-radius: 30px;
-    font-weight: bolder;
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'Roboto Slab', serif;
-}
-.homecta:active {
-    outline: none;
-}
-#registernow{
-    border: none;
-    background-color: #2432A8;
-}
-#insta{
-    border: 3px solid  #C13584;
-    background-color: transparent;
-    color:  #C13584;
-}
-#linkin{
-    border: none;
-    background-color: #09AB78;
-}
-
 .results{
     background-color: white;
     padding: 20px 40px 0 40px;
@@ -116,15 +124,13 @@ body {
     padding-bottom: 40px;
 }
 .percentcaption{
-    display: flex;
-    justify-content: left;
+    position: relative;
     left: 20px;
     top: 20px;
     font-size: 20px;
 }
 .percent{
-    display: flex;
-    justify-content: left;
+    float: left;
     font-size: 60px;
     font-weight: bolder;
     color: #c4a93e;
@@ -137,7 +143,7 @@ body {
 }
 .amtraised a{
     position: relative;
-    top: -2px;
+    top: 3px;
 }
 .results h3{
     text-align: center;
@@ -150,18 +156,13 @@ body {
     line-height: 1.8em;
     font-size: 25px;
     text-align: center;
-    padding: 0 20px;
-}
-.center{
-    justify-content: center;
 }
 #ted{
     padding-bottom: 100px;
     margin-left: 10%;
 }
 #ted img{
-    width: 200px;
-    max-width: 40%;
+    height: 250px;
     float: left;
 }
 #quotesrc{
@@ -208,11 +209,15 @@ body {
 #howitworks ol{
     padding: 0 20% 50px 20%;
 }
-.videowrap{
-    padding: 0 5%;
-}
 .video{
-    border-radius: 10px;
+    width: 800px;
+    max-width: 80%;
+    height: 450px;
+    position: relative;
+    left: 10%;
+}
+.embedded{
+    width: 550px;
 }
 #backbutton{
     float: left;
@@ -223,4 +228,20 @@ body {
     float: right;
     position: relative;
     top: 200px;
+}
+
+@media (max-width: 955px){
+    #slogan{
+        display: none;
+    }
+    #navstuff{
+        position: absolute;
+        width: auto;
+        height: 30px;
+        top: 160px;
+        left: 24px;
+    }
+    #header{
+        width: 420px;
+    }
 }
