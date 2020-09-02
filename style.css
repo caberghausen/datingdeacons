@@ -10,8 +10,8 @@ body {
     max-width: 100%;
     height: auto;
     position: relative;
-    top: 80px;
-    padding-top: 60px;
+    top: 0;
+    padding-top: 120px;
     padding-bottom: 50px;
     margin-bottom: 100px;
     border-radius: 10px;
@@ -54,26 +54,22 @@ body {
 #body a:hover{
     opacity: .5;
 }
-#datin{
-    border: 5px solid #c4a93e;
-    background-color: #c4a93e;
-}
-#meetin{
-    border: 5px solid #601DB5;
-    background-color: #601DB5;
-}
 .comparetitle{
-    display: flex;
-    justify-content: baseline;
-    font-size: 1.1rem;
-    height: 7rem;
-    color: #ffffff;
-    border-radius: 10px;
-    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+#tableseperator{
+    padding-top: 6rem;
 }
 .col{
-    padding-bottom: 30px;
+    padding-top: 30px;
     /* border: 1px solid black; */
+}
+#titlecol{
+    padding: 0 0;
 }
 .table{
     max-width: 500px;
@@ -106,7 +102,7 @@ body {
 }
 #body h2{
     margin-top: 0;
-    font-size: 20px;
+    font-size: 1.35rem;
     background-color: white;
     padding-left: 20px;
 }
@@ -129,11 +125,22 @@ body {
     top: 30px;
     left: 10px;
 }
+.textwrap{
+    width: 500px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+#optionshead{
+    font-size: 1.8rem;
+}
+.textwrap ol{
+    font-size: 1.35rem;
+}
 #seperator{
     padding-top: 40px;
 }
 #buttonwrap{
-    width: 800px;
+    width: 500px;
     max-width: 95%;
     height: auto;
     margin: 0 auto;
@@ -152,6 +159,19 @@ body {
 }
 .bord{
     border: 1px solid black;
+}
+#datinbtn{
+    border: none;
+    background-color: #c4a93e;
+}
+#meetinbtn{
+    border: none;
+    background-color: #2432A8;
+}
+#registerhead{
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .homecta:active {
     outline: none;
@@ -209,7 +229,7 @@ body {
     line-height: 1.8em;
     font-size: 1.2rem;
     text-align: center;
-    padding: 0 0;
+    padding: 0 40px;
 }
 .center{
     text-align: center;
@@ -225,12 +245,8 @@ body {
 }
 #quotesrc{
     position: relative;
-    top: 40px;
-    font-size: 30px;
-}
-#quotesrc #quoteatt{
-    font-weight: bolder;
-    margin-bottom: 0;
+    top: 20px;
+    font-size: 1.5rem;
 }
 
 .videowrap{
@@ -266,6 +282,10 @@ body {
     .comparetitle{
         height: auto;
         padding: 0 20px;
+    }
+    #quotesrc{
+        font-size: 2rem;
+        padding: 40px;
     }
 }
 @media (min-width: 576px){
