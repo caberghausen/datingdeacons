@@ -11,14 +11,14 @@ body {
     height: auto;
     position: relative;
     top: 0;
-    padding-top: 120px;
+    padding-top: 160px;
     padding-bottom: 50px;
     margin-bottom: 100px;
     border-radius: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 #header {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
 }
@@ -36,9 +36,6 @@ body {
 .link {
     text-decoration: none;
     color: black;
-}
-.centered{
-    text-align: center;
 }
 .tinytext{
     padding-top: 0;
@@ -66,7 +63,6 @@ body {
 }
 .col{
     padding-top: 30px;
-    /* border: 1px solid black; */
 }
 #titlecol{
     padding: 0 0;
@@ -91,12 +87,9 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-#caption {
-    font-size: 10px;
-}
 #body h1{
     font-family: 'Roboto Slab', serif;
-    font-size: 40px;
+    font-size: 2rem;
     margin-bottom: 0;
     padding: 0 20px;
 }
@@ -109,7 +102,7 @@ body {
 .padding20{
     padding: 0 20px;
 }
-.articlewrap{
+.smallwrap{
     width: 500px;
     max-width: 95%;
     margin: 0 auto;
@@ -118,12 +111,6 @@ body {
     margin-top: 0;
     height: 5px;
     background-color: black;
-}
-#body h1 img{
-    width: 100px;
-    position: relative;
-    top: 30px;
-    left: 10px;
 }
 .textwrap{
     width: 500px;
@@ -139,8 +126,8 @@ body {
 #seperator{
     padding-top: 40px;
 }
-#buttonwrap{
-    width: 500px;
+.widewrap{
+    width: 800px;
     max-width: 95%;
     height: auto;
     margin: 0 auto;
@@ -156,9 +143,6 @@ body {
     font-size: 1.2rem;
     color: #ffffff;
     font-family: 'Roboto Slab', serif;
-}
-.bord{
-    border: 1px solid black;
 }
 #datinbtn{
     border: none;
@@ -229,7 +213,7 @@ body {
     line-height: 1.8em;
     font-size: 1.2rem;
     text-align: center;
-    padding: 0 40px;
+    padding: 20px 40px;
 }
 .center{
     text-align: center;
@@ -266,15 +250,6 @@ body {
     top: 200px;
 }
 
-@media (max-width: 576px){
-    #header{
-        font-size: 1.7rem;
-    }
-    #body h1{
-        font-size: 1.8rem;
-    }
-}
-
 @media (min-width: 576px){
     .results h3{
         font-size: 6rem;
@@ -287,7 +262,10 @@ body {
         font-size: 2rem;
         padding: 40px;
     }
-}
-@media (min-width: 576px){
-
+    #header{
+        font-size: 2.4rem;
+    }
+    #body h1{
+        font-size: 2rem;
+    }
 }
