@@ -275,3 +275,9 @@ body {
         font-size: 2rem;
     }
 }
+
+@media (max-width: 440px){
+    #tableseperator{
+        padding-top: 7.5rem;
+    }
+}
