@@ -58,7 +58,7 @@ body {
     color: black;
 }
 #tableseperator{
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 .col{
     padding-top: 30px;
@@ -162,6 +162,18 @@ body {
     font-size: 1.7rem;
     padding-bottom: 15px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+#mostpopular{
+    background-color: #2432A8;
+    border-radius: 5px;
+    color: white;
+    font-size: .7rem;
+    padding: 2px 8px;
+    display: inline-block;
+}
+#mostpopspacer{
+    height: 8px;
+    border: 1px solid black;
 }
 .homecta:active {
     outline: none;
@@ -278,6 +290,6 @@ body {
 
 @media (max-width: 440px){
     #tableseperator{
-        padding-top: 7.5rem;
+        padding-top: 9rem;
     }
 }
