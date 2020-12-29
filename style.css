@@ -1,7 +1,9 @@
 /* yellow color: #c4a93e */
 body {
     background-color: #f3f3f3 !important;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: droid-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #body{
     background-color: white;
@@ -15,12 +17,21 @@ body {
     padding-bottom: 50px;
     margin-bottom: 100px;
     border-radius: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: droid-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
 }
 #header {
-    font-size: 1.7rem;
+    font-size: 30px;
     font-weight: bold;
-    font-family: 'Roboto Slab', serif;
+    font-family: brush-script-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-toggler{
+    border: 1px solid black;
+    width: auto;
 }
 .active{
     background-color: #ffffff;
@@ -50,16 +61,6 @@ body {
 #body a:hover{
     opacity: .5;
 }
-.comparetitle{
-    font-size: 1.3rem;
-    font-weight: 900;
-    position: absolute;
-    bottom: 0;
-    color: black;
-}
-#tableseperator{
-    padding-top: 7rem;
-}
 .col{
     padding-top: 30px;
 }
@@ -73,9 +74,9 @@ body {
     padding: 20px 20px 0 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.table .col{
+.checkpoints{
     text-align: center;
-    font-size: 1.1rem;
+    padding-top: 20px;
 }
 
 .tshirtwrap{
@@ -93,15 +94,17 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-#body h1{
-    font-family: 'Roboto Slab', serif;
+#body h1, h2, h3, h4, h5, h6 {
+    font-family: droid-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 2rem;
     margin-bottom: 0;
-    padding: 0 20px;
+    padding: 0px 20px 10px 20px;
 }
 #body h2{
     margin-top: 0;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     background-color: white;
     padding-left: 20px;
 }
@@ -112,6 +115,9 @@ body {
     width: 500px;
     max-width: 95%;
     margin: 0 auto;
+}
+.smallwrap ol{
+    padding-right: 14px;
 }
 #body hr{
     margin-top: 0;
@@ -134,7 +140,7 @@ body {
 }
 .widewrap{
     width: 800px;
-    max-width: 95%;
+    max-width: 90%;
     height: auto;
     margin: 0 auto;
 }
@@ -148,7 +154,6 @@ body {
     font-weight: bolder;
     font-size: 1.2rem;
     color: #ffffff;
-    font-family: 'Roboto Slab', serif;
 }
 #datinbtn{
     border: none;
@@ -161,7 +166,7 @@ body {
 #registerhead{
     font-size: 1.7rem;
     padding-bottom: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
 }
 #mostpopular{
     background-color: #2432A8;
@@ -193,8 +198,9 @@ body {
 }
 
 .results{
-    background-color: white;
-    padding: 20px 40px 0 40px;
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .percentcaption{
     display: flex;
@@ -209,7 +215,7 @@ body {
     font-size: 60px;
     font-weight: bolder;
     color: #c4a93e;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
 }
 .amtraised{
     font-size: 20px;
@@ -220,18 +226,23 @@ body {
     position: relative;
     top: -2px;
 }
-.results h3{
+#amountraised{
     text-align: center;
-    font-size: 4rem;
     color: #c4a93e;
-    margin: 0 0 0 0;
-    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    width: 100%;
+    font-size: 20vw;
+    /* font-family: brush-script-std, sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    /* font-family: 'Roboto Slab', serif; */
 }
 .about{
     line-height: 1.8em;
     font-size: 1.2rem;
-    text-align: center;
     padding: 20px 40px;
+    tab-size: 16;
 }
 .center{
     text-align: center;
@@ -269,27 +280,26 @@ body {
 }
 
 @media (min-width: 576px){
-    .results h3{
-        font-size: 6rem;
-    }
     .comparetitle{
         height: auto;
-        padding: 0 20px;
     }
     #quotesrc{
         font-size: 2rem;
         padding: 40px;
     }
     #header{
-        font-size: 2.4rem;
+        font-size: 38px;
     }
     #body h1{
         font-size: 2rem;
     }
+    #amountraised{
+        font-size: 100px;
+    }
 }
 
-@media (max-width: 440px){
-    #tableseperator{
-        padding-top: 9rem;
+@media (max-width: 376px){
+    .navbar-toggler{
+        margin: 0 auto;
     }
 }
