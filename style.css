@@ -155,6 +155,9 @@ body {
     font-size: 1.2rem;
     color: #ffffff;
 }
+.homelist{
+    margin-left: 10%;
+}
 #datinbtn{
     border: none;
     background-color: #c4a93e;
@@ -246,6 +249,10 @@ body {
 }
 .center{
     text-align: center;
+}
+.rightalign{
+    text-align: right;
+    padding-right: 40px;
 }
 #ted{
     padding-bottom: 100px;
