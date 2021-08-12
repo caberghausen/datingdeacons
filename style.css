@@ -286,6 +286,14 @@ body {
     top: 200px;
 }
 
+#ted-clause{
+    padding-top: 4rem;
+    margin-top: 0;
+    font-size: 0.6rem;
+    color:gray;
+    text-align: center;
+}
+
 @media (min-width: 576px){
     .comparetitle{
         height: auto;
